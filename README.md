@@ -8,6 +8,8 @@ A machine learning application that classifies music genres using audio features
 - Train Random Forest classifier on GTZAN dataset
 - Interactive Streamlit web interface
 - Real-time genre prediction with probability scores
+- Live microphone recording for instant genre classification
+- Upload audio files or record directly from your microphone
 
 ## Installation
 
@@ -37,8 +39,10 @@ streamlit run app.py
 
 Then:
 1. Click "Load Pre-trained Model" in the sidebar
-2. Upload a WAV audio file
-3. Click "Predict Genre" to see results
+2. Choose your input method:
+   - **Upload Audio File**: Upload a WAV file from your computer
+   - **Live Microphone**: Record audio directly from your microphone
+3. Click "Predict Genre" to see results with probability scores
 
 ## Project Structure
 
